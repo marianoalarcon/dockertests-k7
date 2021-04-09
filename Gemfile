@@ -44,8 +44,11 @@ group :development do
   gem 'spring'
   #Rubocop
   gem 'rubocop', '~> 1.11', require: false
+  #Metrics
+  gem 'rake', '~> 13.0', '>= 13.0.3'
   gem 'rubycritic', '~> 4.6'
   gem 'rubycritic-small-badge', require: false
+  gem 'sandi_meter', '~> 1.2'
 end
 
 group :test do
