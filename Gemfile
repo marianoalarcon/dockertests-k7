@@ -44,6 +44,8 @@ group :development do
   gem 'spring'
   #Rubocop
   gem 'rubocop', '~> 1.11', require: false
+  gem 'rubycritic', '~> 4.6'
+  gem 'rubycritic-small-badge', require: false
 end
 
 group :test do
