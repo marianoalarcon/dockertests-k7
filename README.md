@@ -33,9 +33,10 @@ Welcome to Time-checker
 # Start project
   docker-compose build
   docker-compose up
+  docker-compose run web bundle exec rails webpacker:install
 
 # Database creation
   docker ps
 
-  docker exec -it container_id /bin/bash
-  rake db:create
+  docker-compose exec web rails db:create
+  docker-compose exec web rails db:migrate
