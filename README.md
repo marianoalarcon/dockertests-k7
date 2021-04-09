@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# README
+
+Welcome to Time-checker
+
+# System dependencies
+  1. Docker
+  2. Docker Compose
+
+# Start project
+  docker-compose build
+  docker-compose up
+
+# Database creation
+  docker ps
+
+  docker exec -it container_id /bin/bash
+  rake db:create
