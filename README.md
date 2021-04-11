@@ -15,9 +15,10 @@
 
 # Database creation
   
-  docker-compose exec web rails db:create
+  docker-compose run web rake db:create
 
-  docker-compose exec web rails db:migrate
+
+  docker-compose run web rake db:migrate
 
   <!-- docker ps
 

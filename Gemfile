@@ -33,6 +33,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  # Rspec Rails https://github.com/rspec/rspec-rails/
+  gem 'rspec-rails', '~> 5.0', '>= 5.0.1'  
 end
 
 group :development do
@@ -59,8 +61,6 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
-  # Rspec Rails https://github.com/rspec/rspec-rails/
-  gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
   # https://github.com/simplecov-ruby/simplecov/
   # gem 'simplecov', '~> 0.21.2'
   # gem 'simplecov-badge', '~> 2.0'
