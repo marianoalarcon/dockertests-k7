@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :position
       t.string :uuid
       t.boolean :active
-      t.enum :rol
+      t.integer :rol
 
       t.timestamps
     end
