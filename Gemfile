@@ -34,7 +34,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Rspec Rails https://github.com/rspec/rspec-rails/
-  gem 'rspec-rails', '~> 5.0', '>= 5.0.1'  
+  gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
 end
 
 group :development do
@@ -49,7 +49,7 @@ group :development do
   # Rubocop
   gem 'rubocop', '~> 1.11', require: false
   # Rubocop-rails https://github.com/rubocop/rubocop-rails
-  gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
+  gem 'rubocop-rails', '~> 2.9'
   # Metrics
   gem 'rake', '~> 13.0', '>= 13.0.3'
   gem 'rubycritic', '~> 4.6'
@@ -62,8 +62,8 @@ group :test do
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
   # https://github.com/simplecov-ruby/simplecov/
-  # gem 'simplecov', '~> 0.21.2'
-  # gem 'simplecov-badge', '~> 2.0'
+  gem 'simplecov', '~> 0.21.2'
+  gem 'simplecov-badge', '~> 2.0'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
