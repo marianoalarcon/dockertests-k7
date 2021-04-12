@@ -1,6 +1,13 @@
 # README
-
 * Welcome to Time-checker
+
+![BrightCoders Logo](img/logo-bc.png)
+
+![rubycritic-badge](badges/app/rubycritic_badge_score.svg)
+![coverage-badge](badges/coverage-badge.png)
+
+![cover](img/cover.jpg)
+
 
 # System dependencies
   1. Docker
