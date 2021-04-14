@@ -1,5 +1,5 @@
 # README
-* Welcome to Time-checker
+* Welcome to Time-checker - TESTS
 
 ![BrightCoders Logo](img/logo-bc.png)
 
